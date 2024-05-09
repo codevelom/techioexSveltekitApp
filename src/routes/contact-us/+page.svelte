@@ -13,8 +13,8 @@
             <div class="hero-portfolio-body">
                 <div class="hero-section-content text-center">
                     <h5 class="section-subtitle">Contact Us</h5>
-                    <h1 class="section-title fade-in">We are always open to talk</h1>
-                    <p>We have offices and dedicated team across Nigeria</p>
+                    <h1 class="section-title fade-in">Get in Touch with Us</h1>
+                    <p>Reach out to us today, and let's embark on a journey of technological excellence together.</p>
                 </div>
             </div>
         </div>

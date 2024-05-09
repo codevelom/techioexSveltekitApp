@@ -205,10 +205,10 @@
         <div class="custom-row justify-content-between align-items-center">
             <div class="left-content">
                 <h5 class="section-subtitle">CONSULTING EXCELLENCE</h5>
-                <h1 class="section-title">Best pathway to our clients.</h1>
-                <p>Our consulting process begins with a 
-                    thorough assessment of your current IT 
-                    infrastructure, workflows, and pain points.</p>
+                <h1 class="section-title">Pathway to Client Success</h1>
+                <p>
+                    We tailor our services to your unique needs, ensuring you have the exact tools and support to achieve your goals.
+                </p>
                 <ul>
                     <li>
                         <i class="icon-check las la-check"></i> 24/7 Full Service Support
@@ -230,7 +230,7 @@
                             <img src="./imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
                             <span class="number">01</span>
                             <h3>Discovery and Analysis</h3>
-                            <p>Perform a analysis of the client's existing IT systems.</p>
+                            <p>Perform a analysis of the client's existing application (if any) or cast the net together.</p>
                         </div>
                     </div>
                     <div class="about-timeline-item">
@@ -246,7 +246,7 @@
                             <img src="./imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
                             <span class="number">03</span>
                             <h3>Deployment and Support</h3>
-                            <p>Regularly communicate with our client to any concern.</p>
+                            <p>Regularly communicate with our client to clear any concern.</p>
                         </div>
                     </div>
 

@@ -9,23 +9,24 @@ import Services from "../../components/Services.svelte";
             <div class="hero-portfolio-body">
                 <div class="hero-section-content text-center">
                     <h5 class="section-subtitle">Company</h5>
-                    <h1 class="section-title fade-in">Our company provide best 
-                        horizon tech solutions</h1>
-                    <p>Experience the transformative power of innovation and seamless cutting-edge solutions.
-                         Our journey doesn't end with the delivery of a solution.</p>
+                    <h1 class="section-title fade-in">We Design. You Profit.</h1>
+                    <p>
+                        With a team of experienced professionals, we bring a wealth of knowledge and a proven track record of success to every engagement.
+                    </p>
                 </div>
 
                 <div class="hero-company-boxes">
                     <div class="hero-company-box simple-shadow">
-                        <h1>200+</h1>
+                        <h1>30+</h1>
                         <h3>Projects</h3>
                         <p>Sustainable applications with support.</p>
                     </div>
                     <div class="hero-company-box simple-shadow">
                         <h1>99.9%</h1>
                         <h3>Client Satisfaction</h3>
-                        <p>Our clients are happy with 
-                            our services.</p>
+                        <p>we recognize that the devil is in the details; 
+                            that is why we are best at the game.
+                        </p>
                     </div>
                     <div class="hero-company-box simple-shadow">
                         <h1>10+</h1>
@@ -33,10 +34,11 @@ import Services from "../../components/Services.svelte";
                         <p>Our resilience and attention to detail speaks for us.</p>
                     </div>
                     <div class="hero-company-box simple-shadow">
-                        <h1>2020</h1>
-                        <h3>We Established On</h3>
-                        <p>Our company have a 
-                            great history.</p>
+                        <h1>100%</h1>
+                        <h3>Standby Support</h3>
+                        <p>
+                            No temporary fixes; we're committed to empowering your long-term success
+                        </p>
                     </div>
                 </div>
             </div>
@@ -303,14 +305,19 @@ import Services from "../../components/Services.svelte";
     <div class="custom-container">
         <div class="custom-row align-items-center">
             <div class="img-box">
-                <img src="./imgs/about-service-3.png" alt="About" />
+                <img src="./imgs/about-us.jpg" alt="About" />
             </div>
 
             <div class="content-box">
-                <h1>Why our services are <br>
-                    better than others?</h1>
-                <p>We don't believe in a one-size-fit-all approach. Our services are carefully customized to suit your specific need, ensuring you to achieve your goals.</p>
-                <p>We believe in delivering value that extends  your beyond the immediate project. Our services are designed to provide a long-term benefits.</p>
+                <h1>Why you should <br>
+                    work with Us?</h1>
+                <p>
+                    We don't just offer temporary fixes; we're committed to empowering your long-term success. Our infrastructure management services are designed to provide lasting value, ensuring your company can consistently deliver high-quality software solutions efficiently and securely. 
+                    With us, you're not just a client, you're a partner in our journey towards technological excellence.
+                </p>
+                <p>
+                    
+                </p>
                 <ul>
                     <li>
                         <i class="las la-check"></i> PPD Development
