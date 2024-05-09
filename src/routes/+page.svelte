@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ClientArea from '../components/ClientArea.svelte';
     import Events from '../components/Events.svelte';
   import Services from '../components/Services.svelte';
     import Testimonials from './../components/Testimonials.svelte';
@@ -84,6 +85,7 @@
     </div>
 </section>
 
+<ClientArea />
 <!-- How We Do -->
 <section class="how-we-do-area">
     <div class="custom-container">
@@ -194,8 +196,8 @@
 </section>
 
 <!-- Service Area -->
-<Services />
 
+<Services />
 
 <Events />
 

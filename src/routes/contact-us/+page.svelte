@@ -154,7 +154,7 @@
             <div class="contact-form-wrap">
                 <div class="contact-form-body">
                     <h5 class="section-subtitle">Contact</h5>
-                    <h1 class="section-title">Lets get in touch</h1>
+                    <h1 class="section-title">Talk to Us</h1>
                     <p>You can reach us anytime via <a href="mailto:enquiry@techioex.com">enquiry@techioex.com</a></p>
                     <form  method="POST"  class="contact-form" use:enhance={ () => {
                         isLoading = true;

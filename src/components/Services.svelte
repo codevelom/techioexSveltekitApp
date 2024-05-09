@@ -3,7 +3,7 @@
         <div class="service-section-header section-header d-flex align-items-end justify-content-between">
             <div class="left">
                 <h5 class="section-subtitle">WHAT WE’RE OFFERING</h5>
-                <h1 class="section-title">Dealing in all professional <br>IT services.</h1>
+                <h1 class="section-title">Our Services</h1>
             </div>
             <p>
                 Our focus is on delivering benefits that extend beyond the immediate project, helping your business thrive in the long run.

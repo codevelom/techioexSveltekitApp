@@ -1,5 +1,6 @@
 <script lang="ts">
     import { page } from "$app/stores";
+  import { onMount } from "svelte";
     import Footer from "../components/Footer.svelte";
     import Nav from "../components/Nav.svelte";
     import TopBar from "../components/TopBar.svelte";

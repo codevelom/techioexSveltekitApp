@@ -1,34 +1,23 @@
 <section class="client-area" style:margin-top="-15px;">
     <div class="clients clients-marquee d-flex align-items-center">
+        <div class="client-logo" style="min-width: 0;"></div>
         <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo1.svg" alt="Client" />
+            <img src="./clients/profact.webp" style="width: 300px; height:auto;" alt="Client" />
         </div>
         <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo2.svg" alt="Client" />
+            <img src="./clients/rif.png" style="width: 300px; height:auto;" alt="Reverend Idowu Foundation" />
         </div>
         <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo3.svg" alt="Client" />
+            <img src="./clients/lms.png" style="width: 300px; height:auto;" alt="Lmstax Nigeria" />
         </div>
         <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo4.svg" alt="Client" />
+            <img src="./clients/veriquest.png" style="width: 300px; height:auto;" alt="Veriquest Nig. Ltd." />
         </div>
         <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo5.svg" alt="Client" />
+            <img src="./clients/journals.webp" style="width: 300px; height:auto;" alt="IAC Journals" />
         </div>
         <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo2.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo3.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo4.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo5.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="assets/imgs/client-logo2.svg" alt="Client" />
+            <img src="./clients/iacpro.png" style="width: 300px; height:auto;" alt="IAC Professionals" />
         </div>
         <div class="client-logo" style="min-width: 0;"></div>
     </div>

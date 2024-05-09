@@ -30,8 +30,9 @@
                     <p>We provide the expertise and support to <br>
                         propel your business forward.</p>
                     <form on:submit|preventDefault={handleSubscribe} method="POST" class="subscribe-form">
+                        <label for="" class="text-white mb-2">Subscribe to Newsletter</label>
                         <div class="subscribe-box d-flex">
-                            <input type="email" id="email" name="email" placeholder="Enter Your Email"  bind:value="{subscriberEmail}"/>
+                            <input type="email" id="email" name="email" placeholder="Enter email"  bind:value="{subscriberEmail}"/>
                             <button id="submit2" class="theme-btn">Get Started</button>
                             {#if successMessage !==''}
                                 <span class="text-success">
@@ -74,7 +75,7 @@
                         <h2>Let’s get started on something great</h2>
                         <p>Our team of IT experts looks forward to meeting with you <br>
                             and providing valuable insights and solutions tailored to your business.</p>
-                        <a href="contact-us" class="theme-btn">Get an appointment now</a>
+                        <a href="contact-us" class="theme-btn">Book an appointment now</a>
 
                         <div class="footer-experience d-flex align-items-center">
 
