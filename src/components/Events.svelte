@@ -47,10 +47,10 @@
                 <div class="news-item-body">
                     <!-- <h5 class="section-subtitle">SAT, SEP 16</h5> -->
                     <h1 class="section-title">
-                        <a href="#">Larvel for Beginners</a>
+                        <a href="#">Laravel for Beginners</a>
                     </h1>
                     <p>
-                        Laravel: Forge your Future in Web Development! Unleash the Power of PHP with Our Beginner-Friendly Training.
+                        Laravel: Forge your Future in Web Development! Unleash the Power of web development in PHP with Our beginner-friendly training.
                     </p>
                     <ul>
                         <li>
@@ -80,7 +80,7 @@
 <section class="cta-area cta-area2">
     <div class="custom-container">
         <div class="cta-body text-center d-flex align-items-center justify-content-between">
-            <img src="assets/imgs/bg-shape-12.png" alt="Shape" class="animation-slide-right bg-shape"/>
+            <img src="./imgs/bg-shape-12.png" alt="Shape" class="animation-slide-right bg-shape"/>
             <div class="left">
                 <div class="our-expert-team-box">
                     <div class="our-expert-team-box-inner d-flex align-items-center">

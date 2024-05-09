@@ -1,3 +1,22 @@
+ <script lang="ts">
+    import { emailFormatChecker } from "$lib/emailFormatChecker";
+    let subscriberEmail = '';
+    let error = '';
+    let successMessage = '';
+    function handleSubscribe(){
+        if(subscriberEmail == ""){
+            error = 'Enter a valid email';
+            return;
+        }
+        if(emailFormatChecker(subscriberEmail) == false){
+            error = 'Enter a valid email';
+            return;
+        }
+
+        successMessage = "Thanks for subscribing!";
+        subscriberEmail = '';
+    }
+ </script>
  <!-- Footer -->
  <footer class="footer-area mt-5">
     <img src="./imgs/bg-shape-4.svg" alt="Shape" class="animation-slide-right bg-shape" />
@@ -10,21 +29,33 @@
                     </a>
                     <p>We provide the expertise and support to <br>
                         propel your business forward.</p>
-                    <form action="#" method="POST" class="subscribe-form">
+                    <form on:submit|preventDefault={handleSubscribe} method="POST" class="subscribe-form">
                         <div class="subscribe-box d-flex">
-                            <input type="email" id="email" name="email" placeholder="Enter Your Email" />
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email"  bind:value="{subscriberEmail}"/>
                             <button id="submit2" class="theme-btn">Get Started</button>
+                            {#if successMessage !==''}
+                                <span class="text-success">
+                                    {successMessage}
+                                </span>
+                            {:else if error !==''}
+                                <span class="text-danger">
+                                    {error}
+                                </span>
+                            {/if}
                         </div>
                         <!-- Alert Message -->  
                         <div class="input-row">
                             <div class="input-group alert-notification">
-                                <div id="alert-message-subscribe" class="alert-msg"></div>
+                                <div id="alert-message-subscribe" class="alert-msg">
+                                </div>
                             </div>
                         </div>
                     </form>
                     <div class="footer-clients d-flex align-items-center">
                         <div class="footer-client-img">
-                            <img src="./imgs/youtube.svg" alt="Youtube" />
+                            <a href="https://www.youtube.com/@techioex?sub_confirmation=1">
+                                <img src="./imgs/youtube.svg" alt="Youtube" />
+                            </a>
                         </div>
                         <!-- <div class="footer-client-img">
                             <img src="./imgs/webflow.svg" alt="webflow" />
@@ -33,7 +64,7 @@
                             <img src="./imgs/upwork.svg" alt="upwork" />
                         </div> -->
                         <div class="footer-client-img">
-                            <img src="./imgs/shopify.svg" alt="shopify" />
+                            <!-- <img src="./imgs/shopify.svg" alt="shopify" /> -->
                         </div>
                     </div>
                 </div>

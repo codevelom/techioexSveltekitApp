@@ -1,11 +1,10 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
   import type { ActionData } from "./$types";
-
+  import { page } from "$app/stores";
   export let form : ActionData;
+  
   let isLoading = false;
-
-
 </script>
 <!-- Faq Hero -->
 <section class="hero-service-wrap hero-section-wrap hero-portfolio-wrap">
@@ -157,7 +156,7 @@
                     <h5 class="section-subtitle">Contact</h5>
                     <h1 class="section-title">Lets get in touch</h1>
                     <p>You can reach us anytime via <a href="mailto:enquiry@techioex.com">enquiry@techioex.com</a></p>
-                    <form  method="POST" class="contact-form" use:enhance={ () => {
+                    <form  method="POST"  class="contact-form" use:enhance={ () => {
                         isLoading = true;
                         return ({ result, update }) => {
                             update();
@@ -181,6 +180,16 @@
                                 </div>
                             </div>
                          {/if}
+                         
+                         <!-- {#if $page.url.searchParams.get('redirect')}
+                            <div class="input-row ">
+                                <div class="input-group alert-notification alert alert-info w-100">
+                                    <div id="alert-message" class="alert-success alert-msg">
+                                        Thank you! We have received your message and will get back to you shortly.
+                                    </div>
+                                </div>
+                            </div>
+                         {/if} -->
                         <div class="input-row">
                             <div class="input-group">
                                 <label for="first_name">First Name</label>
@@ -208,8 +217,8 @@
                                 <label for="">Your Interest</label>
                                 <select name="inquiry" class="form-control">
                                     <option value="">Select Interest</option>
-                                    <option value="">General Inquiry</option>
-                                    <option value="">Training Inquiry</option>
+                                    <option>General Inquiry</option>
+                                    <option>Training Inquiry</option>
                                 </select>
                             </div>
                         </div>

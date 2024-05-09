@@ -1,8 +1,8 @@
-import { fail } from "@sveltejs/kit";
+import { fail, redirect } from "@sveltejs/kit";
 import type { Actions } from "./$types";
 
 export const actions: Actions = {
-    default : async ({ request, fetch, setHeaders }) => {
+    default : async ({ request, fetch }) => {
         const form = await request.formData();
 
         let firstname = form.get('first_name');
@@ -52,8 +52,8 @@ export const actions: Actions = {
              message : message
             });
         }else{
-            
-            return fail(300, {emailNotSent: "Thank you! We have received your message and will get back to you shortly."});
+            throw redirect(300, '/contact-us');
+            // return fail(300, {emailNotSent: "Thank you! We have received your message and will get back to you shortly."});
         }
     }
 };

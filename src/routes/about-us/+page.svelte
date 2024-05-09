@@ -1,3 +1,7 @@
+<script>
+import Services from "../../components/Services.svelte";
+
+</script>
 <!-- About Hero -->
 <section class="hero-service-wrap hero-section-wrap hero-about-wrap">
     <div class="hero-section-content-wrap">
@@ -7,28 +11,26 @@
                     <h5 class="section-subtitle">Company</h5>
                     <h1 class="section-title fade-in">Our company provide best 
                         horizon tech solutions</h1>
-                    <p>Experience the transformative power of innovation and seamless solutions with
-                        dynamics. Our journey doesn't end with the delivery of a solution.</p>
+                    <p>Experience the transformative power of innovation and seamless cutting-edge solutions.
+                         Our journey doesn't end with the delivery of a solution.</p>
                 </div>
 
                 <div class="hero-company-boxes">
                     <div class="hero-company-box simple-shadow">
                         <h1>200+</h1>
                         <h3>Projects</h3>
-                        <p>We are spread around
-                            the world.</p>
+                        <p>Sustainable applications with support.</p>
                     </div>
                     <div class="hero-company-box simple-shadow">
-                        <h1>100%</h1>
+                        <h1>99.9%</h1>
                         <h3>Client Satisfaction</h3>
-                        <p>Our clients a happy with 
-                            our service.</p>
+                        <p>Our clients are happy with 
+                            our services.</p>
                     </div>
                     <div class="hero-company-box simple-shadow">
-                        <h1>50+</h1>
+                        <h1>10+</h1>
                         <h3>Clients</h3>
-                        <p>Our customers are from
-                            many countries.</p>
+                        <p>Our resilience and attention to detail speaks for us.</p>
                     </div>
                     <div class="hero-company-box simple-shadow">
                         <h1>2020</h1>
@@ -42,47 +44,12 @@
     </div>
 </section>
 
-
 <!-- Client Section -->
-<!-- <section class="client-area">
-    <div class="clients clients-marquee d-flex align-items-center">
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo1.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo2.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo3.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo4.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo5.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo2.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo3.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo4.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo5.svg" alt="Client" />
-        </div>
-        <div class="client-logo simple-shadow">
-            <img src="./imgs/client-logo2.svg" alt="Client" />
-        </div>
-        <div class="client-logo" style="min-width: 0;"></div>
-    </div>
-</section> -->
+
 
 
 <!-- Service -->
-<section class="company-service-area">
+<!-- <section class="company-service-area">
     <div class="custom-container">
         <div class="hero-service-about">
             <div class="section-header d-flex align-items-center justify-content-between w-full">
@@ -118,11 +85,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- Service Area -->
-<section class="service4-area service-area">
+<!-- <section class="service4-area service-area">
     <div class="custom-container">
         <div class="service-section-header section-header d-flex align-items-end justify-content-between">
             <div class="left">
@@ -162,11 +129,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+
 
 
 <!-- Our Team -->
-<section class="our-team-2-area">
+<!-- <section class="our-team-2-area">
     <div class="custom-container">
         <div class="section-header our-team-2-header d-flex align-items-center justify-content-between w-full">
             <img class="animation-slide-right bg-shape" src="./imgs/bg-shape-10.svg" alt="Shape" />
@@ -327,7 +295,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- About -->
@@ -354,24 +322,21 @@
             </div>
         </div>
     </div>
-</section>
+</section> 
 
-
+<Services />
 <!-- CTA -->
 <section class="cta-area">
     <div class="custom-container">
         <div class="cta-body text-center">
             <img src="./imgs/bg-shape-11.svg" alt="Shape" class="animation-slide-left bg-shape"/>
-            <div class="our-expert-team-box">
+            <!-- <div class="our-expert-team-box">
                 <div class="our-expert-team-box-inner d-flex align-items-center">
                     <div class="imgs d-flex align-items-center">
-                        <img src="./imgs/small-img-4.png" alt="team" />
-                        <img src="./imgs/small-img-3.png" alt="team" />
-                        <img src="./imgs/small-img-2.png" alt="team" />
-                        <img src="./imgs/small-img-1.png" alt="team" />
+                        <img src="./imgs/techioex_image.jpeg" alt="team" />
                     </div>
                 </div>
-            </div>
+            </div> -->
             <h2>Need any further assitance?</h2>
             <p>Feel free to reach out for any inquiries or assistance.</p>
             <a href="contact-us" class="theme-btn">Book an appointment now</a>
