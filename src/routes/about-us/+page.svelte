@@ -1,4 +1,5 @@
 <script>
+  import ClientArea from "../../components/ClientArea.svelte";
 import Services from "../../components/Services.svelte";
 
 </script>
@@ -48,7 +49,7 @@ import Services from "../../components/Services.svelte";
 
 <!-- Client Section -->
 
-
+<ClientArea />
 
 <!-- Service -->
 <!-- <section class="company-service-area">
