@@ -2,7 +2,8 @@ import type { PageLoad } from "../$types";
 
 export const load: PageLoad =  () => {
     return {
-        title: "About Us - Techioex technologies",
-        description: "We build pixel-perfect websites with seamless functionalities at heart."
+        title: "About Us - Passionate Experts, Cutting-Edge Technology",
+        description: "About Our Web & IT Services: Passionate Experts, Cutting-Edge Technology, Tailored Solutions.",
+        keywords: "web and IT services, expertise, cutting-edge technology, tailored solutions, passion"
     }
 };

@@ -14,6 +14,7 @@
         {$page.data.title ? $page.data.title : 'Seamless Solutions - Techioex Technologies'}
     </title>
     <meta name="description" content="{$page.data.description ? $page.data.description : ''}" >
+    <meta name="keywords" content="{$page.data.keywords ? $page.data.keywords : ''}" >
 </svelte:head>
 <main class="main-page homepage">
     <TopBar />
