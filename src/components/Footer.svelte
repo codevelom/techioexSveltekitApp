@@ -166,7 +166,7 @@
                     <div class="footer-contact-info-item">
                         <h4>Mail</h4>
                         <p>
-                            <a href="mailto:it-support@techioex.com">it-support@techioex.com</a> <br>
+                            <a href="mailto:help@techioex.com">help@techioex.com</a> <br>
                             <a href="mailto:trainings@techioex.com">trainings@techioex.com</a>
                         </p>
                     </div>
