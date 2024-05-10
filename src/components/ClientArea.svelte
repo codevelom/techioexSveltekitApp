@@ -1,4 +1,4 @@
-<section class="client-area" style:margin-top="-35px;">
+<section class="client-area">
     <div class="clients clients-marquee d-flex align-items-center">
         <div class="client-logo" style="min-width: 0;"></div>
         <div class="client-logo simple-shadow">
@@ -22,3 +22,11 @@
         <div class="client-logo" style="min-width: 0;"></div>
     </div>
 </section>
+
+<style>
+    .client-area{
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+</style>

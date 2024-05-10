@@ -1,6 +1,6 @@
 <script>
   import ClientArea from "../../components/ClientArea.svelte";
-import Services from "../../components/Services.svelte";
+  import Services from "../../components/Services.svelte";
 
 </script>
 <!-- About Hero -->
@@ -352,3 +352,17 @@ import Services from "../../components/Services.svelte";
         </div>
     </div>
 </section>
+
+<style>
+    .hero-service-wrap{
+        padding: 0;
+        margin: 0;
+    }
+    .about-area{
+        margin: 0;
+        padding: 0;
+    }
+    .hero-section-content-wrap{
+        padding: 0;
+    }
+</style>
