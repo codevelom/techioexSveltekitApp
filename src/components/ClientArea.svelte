@@ -1,4 +1,4 @@
-<section class="client-area">
+<section class="client-area" style:margin-top="-35px;">
     <div class="clients clients-marquee d-flex align-items-center">
         <div class="client-logo" style="min-width: 0;"></div>
         <div class="client-logo simple-shadow">
