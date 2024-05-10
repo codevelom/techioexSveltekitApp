@@ -31,5 +31,36 @@
 		<script src="%sveltekit.assets%/js/theme-custom.js"></script>
 		<!-- <script src="%sveltekit.assets%/js/form1.js"></script> -->
 		<!-- <script src="%sveltekit.assets%/js/subscribe-form.js"></script> -->
+		<script>
+			var url = 'https://edna.io/wp-content/plugins/whatsapp-widget-generator/js/generator.js?35975';
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = url;
+			var options = {
+		  "host":"https://edna.io",
+		  "enabled":true,
+		  "chatButtonSetting":{
+			  "backgroundColor":"#102e75",
+			  "ctaText":"",
+			  "icon":"whatsapp",
+			  "position":"right",
+		  },
+		  "brandSetting":{
+			  "backgroundColor":"#102e75",
+			  "brandImg":"./logo.png",
+			  "brandName":"Customer Support",
+			  "brandSubTitle":"Typically replies within a minute",
+			  "ctaText":"Start Chat",
+			  "phoneNumber":"2348119476898",
+			  "welcomeText":"Hello, and welcome! To get started, please send us a message with your name and the reason for reaching out. We're here to help and look forward to assisting you in any way we can."
+		  }
+		};
+			s.onload = function() {
+				CreateWhatsappChatWidget(options);
+			};
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		</script>
 	</body>
 </html>

@@ -10,8 +10,8 @@
     <div class="custom-container">
         <div class="custom-row align-items-center">
             <div class="hero-empowerment-left-content">
-                <h5 class="section-subtitle">Top Notch IT Service</h5>
-                <h1 class="section-title fade-in">Seamless IT for your business, boosting your growth.</h1>
+                <h5 class="section-subtitle">Effective Web & IT Services</h5>
+                <h1 class="section-title fade-in">Seamless IT for your business through end-end service.</h1>
                 <p>We provide the expertise and support to move your
                     business forward in the digital landscape.</p>
                 <div class="btns-group d-flex">
@@ -87,14 +87,14 @@
 
 <ClientArea />
 <!-- How We Do -->
-<section class="how-we-do-area">
+<section class="how-we-do-area container-fluid">
     <div class="custom-container">
         <div class="custom-row">
             <img src="./imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
             <div class="how-we-do-left-content">
                 <div class="top">
                     <h5 class="section-subtitle">Trust the process</h5>
-                    <h1 class="section-title">Our work engine</h1>
+                    <h1 class="section-title">WE ARE PROACTIVE EXPERTS</h1>
                     <p>Save time and money with our powerful method.</p>
                 </div>
                 <a href="contact-us" class="theme-btn">

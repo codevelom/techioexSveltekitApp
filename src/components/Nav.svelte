@@ -13,7 +13,7 @@
         <div class="custom-row align-items-center justify-content-between">
             <div class="header-left d-flex align-items-center">
                 <a href="/" class="logo">
-                    <img src="./logo.png" alt="techioex technologies logo" style="width: 300px;" />
+                    <img src="./logo.png" alt="techioex technologies logo" />
                 </a>
 
                 <div class="header-left-right">

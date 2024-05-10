@@ -3,8 +3,9 @@
   import type { ActionData } from "./$types";
   import { page } from "$app/stores";
   export let form : ActionData;
-  
   let isLoading = false;
+  
+
 </script>
 <!-- Faq Hero -->
 <section class="hero-service-wrap hero-section-wrap hero-portfolio-wrap">
@@ -158,7 +159,7 @@
                     <p>You can reach us anytime via <a href="mailto:enquiry@techioex.com">enquiry@techioex.com</a></p>
                     <form  method="POST"  class="contact-form" use:enhance={ () => {
                         isLoading = true;
-                        return ({ result, update }) => {
+                        return ({ result, update}) => {
                             update();
                             isLoading = false;
                         }
@@ -179,6 +180,15 @@
                                     <div id="alert-message" class="alert-danger alert-msg">{ form.emailNotSent }</div>
                                 </div>
                             </div>
+                         {/if}
+                         {#if form?.emailSent}
+                            <!-- content here -->
+                            <div class="input-row ">
+                                <div class="input-group alert-notification alert alert-info w-100">
+                                    <div id="alert-message" class="alert-danger alert-msg">{ form.emailSent }</div>
+                                </div>
+                            </div>
+                            
                          {/if}
                          
                          <!-- {#if $page.url.searchParams.get('redirect')}
@@ -254,6 +264,7 @@
                                         Get Started
                                     {/if  }
                                 </button>
+                                <button style="display:none;" id="resetForm"></button>
                             </div>
                         </div>
                     </form>
@@ -267,7 +278,7 @@
                         <p>Field Experience </p>
                     </li>
                     <li>
-                        <h1>200+ <span>Projects</span></h1>
+                        <h1>30+ <span>Projects</span></h1>
                         <p>Completed </p>
                     </li>
                     <li>
