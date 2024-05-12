@@ -1,6 +1,7 @@
 import { fail, redirect } from "@sveltejs/kit";
 import type { Actions } from "./$types";
 import { page } from "$app/stores";
+import { RandomStringGenerator } from "$lib/generateRandomNumber";
 
 export const actions: Actions = {
     default : async ({ request, fetch }) => {
@@ -12,7 +13,9 @@ export const actions: Actions = {
         let phone = form.get('phone_number');
         let inquiry = form.get('inquiry');
         let message = form.get('message');
-
+        let captcha = form.get('captcha');
+        let captcha_checks = form.get('captcha_checks');
+        
         if(firstname =="" || lastname==""){
             return fail(400, {formFieldErrors: "Firstname and Lastname is compulsory"})
         }
@@ -27,6 +30,9 @@ export const actions: Actions = {
         }
         if(message ==""){
             return fail(400, {formFieldErrors: "The message field is compulsory"})
+        }
+        if(captcha !== captcha_checks){
+            return fail(400, {formFieldErrors: "Captcha incorrect"})
         }
 
        

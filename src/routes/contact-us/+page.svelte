@@ -1,10 +1,12 @@
 <script lang="ts">
   import { enhance } from "$app/forms";
   import type { ActionData } from "./$types";
-  import { page } from "$app/stores";
+  import { RandomStringGenerator } from '$lib/generateRandomNumber';
   export let form : ActionData;
   let isLoading = false;
   
+  export let botCheck = RandomStringGenerator(10);
+  let modifiedCheck = botCheck.split('').join(" ")
 
 </script>
 <!-- Faq Hero -->
@@ -156,7 +158,7 @@
                 <div class="contact-form-body">
                     <h5 class="section-subtitle">Contact</h5>
                     <h1 class="section-title">Talk to Us</h1>
-                    <p>You can reach us anytime via <a href="mailto:enquiry@techioex.com">enquiry@techioex.com</a></p>
+                    <p>You can reach us anytime via <a href="#">enquiry@techioex.com</a></p>
                     <form  method="POST"  class="contact-form" use:enhance={ () => {
                         isLoading = true;
                         return ({ result, update}) => {
@@ -246,6 +248,18 @@
                             <div class="input-group">
                                 <label for="message">Message</label>
                                 <textarea name="message" id="message" required placeholder="Leave us a message...."></textarea>
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="message">
+                                    <h6 class="text-uppercase text-dark">Enter the code below without space:</h6> 
+                                    <div class="bg-light p-3 text-dark">
+                                        <h2>{modifiedCheck}</h2>
+                                    </div>
+                                </label>
+                                <input name="captcha" id="captcha" required placeholder="Enter Letters shown above" />
+                                <input type="hidden" name="captcha_checks" id="captcha_checks"  value="{ botCheck }" />
                             </div>
                         </div>
                         <!-- <div class="input-row">
