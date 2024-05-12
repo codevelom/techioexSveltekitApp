@@ -26,11 +26,11 @@
                             <i class="las la-clock"></i> 9 AM - 2 PM
                         </li>
                         <li>
-                            <i class="las la-map-marker"></i> Zoom
+                            <i class="las la-map-marker"></i> In-person / Virtual
                         </li>
-                        <li>
+                        <!-- <li>
                             <i class="las la-calendar"></i> Reccurring
-                        </li>
+                        </li> -->
                         <!-- <li>
                             <i class="las la-user"></i> Host - Emmanuel Gbadebo
                         </li> -->
@@ -57,11 +57,11 @@
                             <i class="las la-clock"></i> 9 AM - 2 PM
                         </li>
                         <li>
-                            <i class="las la-map-marker"></i> Zoom
+                            <i class="las la-map-marker"></i> In-person / Virtual
                         </li>
-                        <li>
-                            <i class="las la-calendar"></i> Recurring
-                        </li>
+                        <!-- <li>
+                            <i class="las la-phone"></i> Recurring
+                        </li> -->
                         <!-- <li>
                             <i class="las la-user"></i> Contact 
                         </li> -->
