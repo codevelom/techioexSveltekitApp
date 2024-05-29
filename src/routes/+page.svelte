@@ -1,8 +1,8 @@
 <script lang="ts">
   import ClientArea from '../components/ClientArea.svelte';
-    import Events from '../components/Events.svelte';
+  import Events from '../components/Events.svelte';
   import Services from '../components/Services.svelte';
-    import Testimonials from './../components/Testimonials.svelte';
+  import Testimonials from './../components/Testimonials.svelte'; 
 </script>
 
 
