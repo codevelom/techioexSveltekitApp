@@ -27,9 +27,9 @@
                     <img class="desktop fade-in" src="./imgs/techioex_image.jpeg" alt="techioex technologies" />
                     <img class="mobile" src="./imgs/techioex_image.jpeg" alt="techioex technologies" />
 
-                    <div class="experience-box simple-shadow bounce-in">
+                    <!-- <div class="experience-box simple-shadow bounce-in">
                         <div class="experience-body d-flex align-items-center">
-                            <!-- <img src="./imgs/icon1.svg" alt="Icon" /> -->
+                            <img src="./imgs/icon1.svg" alt="Icon" />
 
                             <div class="experience-content d-flex align-items-center">
                                 <h1>+8</h1>
@@ -39,11 +39,11 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
-                <div class="bottom-content d-flex">
-                    <!-- <a href="team.html" class="our-expert-team-box simple-shadow bounce-in delay-2">
+                <!-- <div class="bottom-content d-flex">
+                    <a href="team.html" class="our-expert-team-box simple-shadow bounce-in delay-2">
                         <div class="our-expert-team-box-inner d-flex align-items-center">
                             <div class="imgs imgs1 d-flex align-items-center">
                                 <img src="./imgs/small-img-4.png" alt="team" />
@@ -56,14 +56,14 @@
                                 <span>Our Experts</span>
                             </p>
                         </div>
-                    </a> -->
+                    </a>
 
                     <div class="google-reviews-box simple-shadow bounce-in delay-3">
                         <div class="left">
-                            <span>Verified by</span>
+                            <span>Partners </span>
                             <img src="./imgs/icon2.svg" alt="Google" />
                         </div>
-                        <!-- <div class="right">
+                        <div class="right">
                             <div class="stars d-flex align-items-center">
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
@@ -75,9 +75,9 @@
                                 3245
                                 <span>Reviews</span>
                             </p>
-                        </div> -->
+                        </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
