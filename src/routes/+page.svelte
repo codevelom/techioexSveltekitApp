@@ -199,7 +199,7 @@
 
 <Services />
 
-<Events />
+<!-- <Events /> -->
 
 <!-- About Section -->
 <section class="about-area">
