@@ -29,4 +29,7 @@
         margin-bottom: 50px;
         padding: 0;
     }
+    .client-logo img{
+        width: 300px;
+    }
 </style>

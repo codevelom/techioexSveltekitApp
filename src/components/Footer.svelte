@@ -177,17 +177,20 @@
         <div class="custom-container">
             <div class="custom-row d-flex align-items-center justify-content-between">
                 <ul class="social-links d-flex align-items-center">
-                    <li><a href="https://facebook.com/techioex">
+                    <li><a href="https://facebook.com/techioex" target="_blank">
                         <i class="iconoir-facebook"></i>
                     </a></li>
                     <li><a href="#">
                         <i class="iconoir-twitter"></i>
                     </a></li>
-                    <li><a href="https://instagram.com/techioex">
+                    <li><a href="https://instagram.com/techioex" target="_blank">
                         <i class="iconoir-instagram"></i>
                     </a></li>
-                    <li><a href="https://linkedin.com/techioex">
+                    <li><a href="https://www.linkedin.com/company/techioex-technologies/" target="_blank">
                         <i class="iconoir-linkedin"></i>
+                    </a></li>
+                    <li><a href="https://www.youtube.com/@techioex" target="_blank">
+                        <i class="iconoir-youtube"></i>
                     </a></li>
                 </ul>
             </div>
